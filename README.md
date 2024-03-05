@@ -59,8 +59,9 @@ The trained GAN model is critical for the enhancement process and should be plac
 
 ## Dataset
 
-The dataset includes paired depth images from both the RealSense and ZED2i cameras. It is essential for training and validating the GAN model. Here is the link to the Dataset: https://wpi0-my.sharepoint.com/:f:/g/personal/schigurupati_wpi_edu/Ent9DaSGxR5AjIbc7_9k5U8BGRhI6nl76zaVLsNHlJ9T9w?e=plPdz4
-*Note*: The Dataset can only be accessed by wpi credentials, Hence, not publicly available.
+The dataset includes paired depth images from both the RealSense and ZED2i cameras. It is essential for training and validating the GAN model. Here is the link to the Dataset: https://wpi0-my.sharepoint.com/:f:/g/personal/schigurupati_wpi_edu/Ent9DaSGxR5AjIbc7_9k5U8BGRhI6nl76zaVLsNHlJ9T9w?e=plPdz4<br>
+
+***Note***: The Dataset can only be accessed by wpi credentials, Hence, not publicly available.
 
 ## Results
 In the below image you can see the output from the GAN model. The left image shows the Intel Realsense, center image is the ZED 2i ground truth image and the right image is the generated enhanced output from the GAN model.
