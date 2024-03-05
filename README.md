@@ -48,7 +48,7 @@ gan_enhancer_node.py: A ROS node that subscribes to RealSense and ZED camera fee
 ***Publications:***
 /enhanced_gan_depthimage: The topic where enhanced depth images are published.
 
-**Model Information**
+## Model Information
 
 The trained GAN model is critical for the enhancement process and should be placed in a known directory. The default path is set to /home/merlab/Desktop/shreyas/best_generator.h5. Update the path in the gan_enhancer_node.py script if you store the model in a different location.
 
@@ -57,16 +57,19 @@ The trained GAN model is critical for the enhancement process and should be plac
 </p>
 
 
-**Dataset**
+## Dataset**
 
 The dataset includes paired depth images from both the RealSense and ZED2i cameras. It is essential for training and validating the GAN model. Here is the link to the Dataset: https://wpi0-my.sharepoint.com/:f:/g/personal/schigurupati_wpi_edu/Ent9DaSGxR5AjIbc7_9k5U8BGRhI6nl76zaVLsNHlJ9T9w?e=plPdz4
 
-**Results**
+## Results
 In the below image you can see the output from the GAN model. The left image shows the Intel Realsense, center image is the ZED 2i ground truth image and the right image is the generated enhanced output from the GAN model.
-<img width="460" alt="Screenshot 2024-03-05 at 9 17 39 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/e5e58a7d-0296-4f93-9e41-57d1fcd29c56">
+<p align="center">
+   <img width="460" alt="Screenshot 2024-03-05 at 9 17 39 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/e5e58a7d-0296-4f93-9e41-57d1fcd29c56">
+</p>
 Below are the performance plots over 50 epochs.
-<img width="470" alt="Screenshot 2024-03-05 at 9 17 58 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/1da15689-be80-499f-9ab0-62a81acc460a">
-
+<p align="center">
+   <img width="470" alt="Screenshot 2024-03-05 at 9 17 58 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/1da15689-be80-499f-9ab0-62a81acc460a">
+</p>
 
 **Scripts**<br>
 
