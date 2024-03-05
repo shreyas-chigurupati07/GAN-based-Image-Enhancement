@@ -51,7 +51,11 @@ gan_enhancer_node.py: A ROS node that subscribes to RealSense and ZED camera fee
 **Model Information**
 
 The trained GAN model is critical for the enhancement process and should be placed in a known directory. The default path is set to /home/merlab/Desktop/shreyas/best_generator.h5. Update the path in the gan_enhancer_node.py script if you store the model in a different location.
-<img width="448" alt="Screenshot 2024-03-05 at 9 13 57 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/7cf1c4c2-ad06-43a4-b61a-19be3d625cec">
+
+<p allign="center">
+   <img width="448" alt="Screenshot 2024-03-05 at 9 13 57 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/7cf1c4c2-ad06-43a4-b61a-19be3d625cec">
+</p>
+
 
 **Dataset**
 
