@@ -68,6 +68,12 @@ In the below image you can see the output from the GAN model. The left image sho
 <p align="center">
    <img width="460" alt="Screenshot 2024-03-05 at 9 17 39 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/e5e58a7d-0296-4f93-9e41-57d1fcd29c56">
 </p>
+Grasp Predictions:
+Enhanced images V/s Non-Enhanced images
+<p align="center">
+   <img width="465" alt="Screenshot 2024-03-05 at 9 39 57 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/77b6ee89-3fdd-45fa-84a3-039c4938372c">
+</p>
+
 Below are the performance plots over 50 epochs.
 <p align="center">
    <img width="470" alt="Screenshot 2024-03-05 at 9 17 58 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/1da15689-be80-499f-9ab0-62a81acc460a">
