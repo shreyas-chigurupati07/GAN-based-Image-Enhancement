@@ -71,8 +71,7 @@ Below are the performance plots over 50 epochs.
    <img width="470" alt="Screenshot 2024-03-05 at 9 17 58 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/1da15689-be80-499f-9ab0-62a81acc460a">
 </p>
 
-**Scripts**<br>
-
+### Scripts
 ***main.py*** - This script has the complet GAN model used for Image enhancement.<br>
 ***zed_raw_capture.py*** - This script contains code for capturing depth images from the zed 2i camera module.<br>
 ***realsense_capture.py*** - This script contains code for capturing raw depth images from the realsense camera module.<br>
