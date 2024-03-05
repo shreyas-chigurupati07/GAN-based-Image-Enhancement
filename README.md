@@ -42,10 +42,10 @@ now run the Grasp algorithm by subscribing to the /enhanced_gan_depthimage topic
 ***Node Details***
 
 gan_enhancer_node.py: A ROS node that subscribes to RealSense and ZED camera feeds to publish enhanced depth images.
-***Subscriptions:***
+***Subscribed topics:***
 /camera/depth/image_rect_raw: RealSense depth images.
 /zed2i/zed_node/depth/depth_registered: ZED depth images.
-***Publications:***
+***Published topics:***
 /enhanced_gan_depthimage: The topic where enhanced depth images are published.
 
 ## Model Information
