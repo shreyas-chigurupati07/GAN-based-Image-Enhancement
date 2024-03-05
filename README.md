@@ -62,16 +62,17 @@ The trained GAN model is critical for the enhancement process and should be plac
 The dataset includes paired depth images from both the RealSense and ZED2i cameras. It is essential for training and validating the GAN model. Here is the link to the Dataset: https://wpi0-my.sharepoint.com/:f:/g/personal/schigurupati_wpi_edu/Ent9DaSGxR5AjIbc7_9k5U8BGRhI6nl76zaVLsNHlJ9T9w?e=plPdz4
 
 **Results**
-
+In the below image you can see the output from the GAN model. The left image shows the Intel Realsense, center image is the ZED 2i ground truth image and the right image is the generated enhanced output from the GAN model.
 <img width="460" alt="Screenshot 2024-03-05 at 9 17 39 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/e5e58a7d-0296-4f93-9e41-57d1fcd29c56">
-<p align="center">
-   <img width="470" alt="Screenshot 2024-03-05 at 9 17 58 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/1da15689-be80-499f-9ab0-62a81acc460a">
-</p>
+Below are the performance plots over 50 epochs.
+<img width="470" alt="Screenshot 2024-03-05 at 9 17 58 AM" src="https://github.com/shreyas-chigurupati07/GAN-based-Image-Enhancement/assets/84034817/1da15689-be80-499f-9ab0-62a81acc460a">
 
-**Scripts**
-***main.py*** - This script has the complet GAN model used for Image enhancement
-***zed_raw_capture.py*** - This script contains code for capturing depth images from the zed 2i camera module.
-***realsense_capture.py*** - This script contains code for capturing raw depth images from the realsense camera module.
-***grasp_prediction_nonenhanced.py*** - This script contains code for generating grasp rectangles on original non enhanced realsense depth image.
-***grasp_prediction_enhanced.py*** - This script contains code for generating the grasp rectangles on the enhanced image output from the GAN model.
+
+**Scripts**<br>
+
+***main.py*** - This script has the complet GAN model used for Image enhancement.<br>
+***zed_raw_capture.py*** - This script contains code for capturing depth images from the zed 2i camera module.<br>
+***realsense_capture.py*** - This script contains code for capturing raw depth images from the realsense camera module.<br>
+***grasp_prediction_nonenhanced.py*** - This script contains code for generating grasp rectangles on original non enhanced realsense depth image.<br>
+***grasp_prediction_enhanced.py*** - This script contains code for generating the grasp rectangles on the enhanced image output from the GAN model.<br>
 ***gan_enhancer_node.py*** - This script contains code for ROS integration of the GAN model and GGCNN. 
