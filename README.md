@@ -57,7 +57,7 @@ The trained GAN model is critical for the enhancement process and should be plac
 </p>
 
 
-## Dataset**
+## Dataset
 
 The dataset includes paired depth images from both the RealSense and ZED2i cameras. It is essential for training and validating the GAN model. Here is the link to the Dataset: https://wpi0-my.sharepoint.com/:f:/g/personal/schigurupati_wpi_edu/Ent9DaSGxR5AjIbc7_9k5U8BGRhI6nl76zaVLsNHlJ9T9w?e=plPdz4
 
